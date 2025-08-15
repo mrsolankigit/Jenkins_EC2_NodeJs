@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 // Define a simple route
 app.get('/', (req, res) => {
-res.send('Hello World! Welcome to your CI/CD Node.js Application!');
+res.send('Hello World! Welcome to your First CI/CD Node.js Application!');
 });
 // Start the server
 app.listen(port, () => {
